@@ -1,0 +1,548 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+  .discover {
+    justify-content: center;
+  }
+  .discover .blocks {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .company {
+    justify-content: center;
+    margin-top: 432px;
+  }
+  .company .blocks {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .cms {
+    justify-content: center;
+  }
+  .cms .blocks {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .pricing {
+    justify-content: center;
+  }
+  .pricing .blocks {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .additional {
+    justify-content: center;
+  }
+  .additional .blocks {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1024px) {
+  .footer .top {
+    text-align: center;
+    flex-direction: column;
+  }
+  .footer .top .title .h1 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer .top .title p {
+    padding-left: 150px;
+    padding-bottom: 20px;
+  }
+  .footer .top .navbar {
+    flex-direction: column;
+  }
+  .footer .top .navbar .nav {
+    display: flex;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .footer .bottom {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .bottom .left {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .bottom .right {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.additional {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.additional .teams-title {
+  margin-top: 30px;
+}
+.additional .teams-title h1 {
+  font-weight: 400;
+  font-size: 35px;
+  color: #172426;
+  text-align: center;
+}
+.additional span {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #153C3C;
+  padding: 8px 16px;
+  background: #F3F7F2;
+  border-radius: 4px;
+  height: 48px;
+}
+.additional .blocks {
+  padding: 50px 150px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.additional .blocks .block {
+  width: 280px;
+  padding: 40px 56px;
+  background: #F2F8F8;
+  border-radius: 12px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.additional .blocks .block h1 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #172426;
+}
+.additional .blocks .block .icon {
+  color: #153C3C;
+}
+
+.align {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: start;
+}
+.align .txt {
+  position: absolute;
+  top: 63px;
+  left: 100px;
+}
+.align .txt h1 {
+  font-weight: 400;
+  font-size: 36px;
+  color: #FFFFFF;
+  width: 60%;
+}
+.align .txt .by {
+  display: flex;
+  align-items: center;
+}
+.align .txt .by h2 {
+  font-weight: 400;
+  font-size: 40px;
+  color: #ADC9A6;
+}
+.align .txt .by p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #DDE4E4;
+  text-align: start;
+  margin-left: 10px;
+}
+.align .txt .by button {
+  font-weight: 400;
+  font-size: 13px;
+  color: #FFFFFF;
+  background: #84A17D;
+  border-radius: 4px;
+  border: none;
+  padding: 12px 42px;
+  margin-left: 30px;
+}
+
+.cms {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.cms .teams-title h1 {
+  font-weight: 400;
+  font-size: 35px;
+  color: #172426;
+  text-align: center;
+}
+.cms span {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #153C3C;
+  padding: 8px 16px;
+  background: #F3F7F2;
+  border-radius: 4px;
+  height: 48px;
+  margin-bottom: 13px;
+}
+.cms .blocks {
+  padding: 50px 150px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cms .blocks .block {
+  padding: 40px 56px;
+  background: #F2F8F8;
+  border-radius: 12px;
+  margin: 20px;
+}
+.cms .blocks .block h2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #172426;
+  padding: 20px 0;
+}
+.cms .blocks .block img {
+  height: 401px;
+  width: 300px;
+}
+
+.company {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.company .teams-title h1 {
+  font-weight: 400;
+  font-size: 35px;
+  color: #172426;
+  text-align: center;
+}
+.company span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #153C3C;
+  padding: 8px 16px;
+  background: #F3F7F2;
+  border-radius: 4px;
+  height: 48px;
+  margin-bottom: 13px;
+}
+.company .blocks {
+  padding: 50px 150px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.company .blocks .block {
+  padding: 40px;
+  background: #F2F8F8;
+  border-radius: 12px;
+  margin: 20px;
+}
+.company .blocks .block h2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #172426;
+  padding: 20px 0;
+}
+.company .blocks .block img {
+  height: 401px;
+  width: 300px;
+}
+
+.discover {
+  height: 1617.16px;
+  text-align: center;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.discover .teams-title h1 {
+  font-weight: 400;
+  font-size: 35px;
+  color: #172426;
+  text-align: center;
+}
+.discover span {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #153C3C;
+  padding: 8px 16px;
+  background: #F3F7F2;
+  border-radius: 4px;
+  height: 48px;
+}
+.discover .blocks {
+  padding: 50px 150px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.discover .blocks .block {
+  padding: 40px 56px;
+  background: #F2F8F8;
+  border-radius: 12px;
+  margin: 20px;
+}
+.discover .blocks .block h2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #172426;
+  padding: 20px 0;
+  text-align: start;
+}
+.discover .blocks .block img {
+  height: 401px;
+  width: 300px;
+}
+
+.footer {
+  display: flex;
+  margin-top: 50px;
+  background: #153C3C;
+  padding: 100px 190px;
+  flex-direction: column;
+}
+.footer .top {
+  display: flex;
+}
+.footer .top .title .h1 h1 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #FFFFFF;
+}
+.footer .top .title p {
+  font-weight: 400;
+  padding-top: 30px;
+  font-size: 15px;
+  color: #DDE4E4;
+  width: 50%;
+}
+.footer .top .navbar {
+  display: flex;
+}
+.footer .top .navbar .nav {
+  display: flex;
+  flex-direction: column;
+  padding-right: 130px;
+}
+.footer .top .navbar .nav h1 {
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #F4F5F6;
+}
+.footer .top .navbar .nav a {
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #6C8989;
+}
+.footer .bottom {
+  display: flex;
+  margin-top: 114px;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .bottom .left {
+  display: flex;
+  align-items: center;
+}
+.footer .bottom .left img {
+  padding-right: 10px;
+}
+.footer .bottom .left h1 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.footer .bottom .left span {
+  font-weight: 400;
+  font-size: 13px;
+  color: #ADC9A6;
+}
+.footer .bottom .right {
+  display: flex;
+}
+.footer .bottom .right h1 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #DDE4E4;
+  padding-right: 51px;
+}
+
+.header-1 {
+  background: #ADC9A6;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-1 .icon i {
+  background: #153C3C;
+}
+.header-1 .txt span {
+  padding-left: 15px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  color: #153C3C;
+}
+
+.header-2 {
+  height: 100px;
+  background: #153C3C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-2 .left {
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+}
+.header-2 .left .nav ul {
+  display: flex;
+}
+.header-2 .left .nav ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+.header-2 .left .nav ul li a {
+  margin-left: 50px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: #DDE4E4;
+}
+.header-2 .right .btn {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: #84A17D;
+  border-radius: 4px;
+  border: none;
+  height: 40px;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+}
+
+.pricing {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.pricing .teams-title h1 {
+  font-weight: 400;
+  font-size: 35px;
+  color: #172426;
+  text-align: center;
+}
+.pricing span {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #153C3C;
+  padding: 8px 16px;
+  background: #F3F7F2;
+  border-radius: 4px;
+  height: 48px;
+  margin-bottom: 13px;
+}
+.pricing .blocks {
+  padding: 50px 150px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pricing .blocks .block {
+  padding: 40px 56px;
+  background: #F2F8F8;
+  border-radius: 12px;
+  margin: 20px;
+}
+.pricing .blocks .block h2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #172426;
+  padding: 20px 0;
+}
+.pricing .blocks .block img {
+  height: 401px;
+  width: 300px;
+}
+
+.teams {
+  align-items: center;
+  text-align: center;
+  padding: 100px 80px;
+}
+.teams span {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #153C3C;
+  background: #F3F7F2;
+  border-radius: 4px;
+  height: 48px;
+  padding: 8px 16px;
+  margin-bottom: 11px;
+}
+.teams h1 {
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+  color: #172426;
+}
+.teams img {
+  padding: 109px 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

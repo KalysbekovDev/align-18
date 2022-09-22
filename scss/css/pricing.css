@@ -1,0 +1,47 @@
+.pricing {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.pricing .teams-title h1 {
+  font-weight: 400;
+  font-size: 56px;
+  color: #172426;
+  text-align: center;
+}
+.pricing span {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #153C3C;
+  padding: 8px 16px;
+  background: #F3F7F2;
+  border-radius: 4px;
+  height: 48px;
+  margin-bottom: 13px;
+}
+.pricing .blocks {
+  padding: 50px 150px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pricing .blocks .block {
+  padding: 40px 56px;
+  background: #F2F8F8;
+  border-radius: 12px;
+  margin: 20px;
+}
+.pricing .blocks .block h2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #172426;
+  padding: 20px 0;
+}
+.pricing .blocks .block img {
+  height: 401px;
+  width: 300px;
+}
+
+/*# sourceMappingURL=pricing.css.map */

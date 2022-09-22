@@ -1,0 +1,12 @@
+.align .img {
+  position: relative;
+}
+.align .txt {
+  position: absolute;
+  top: 20px;
+}
+.align .txt .by {
+  display: flex;
+}
+
+/*# sourceMappingURL=align.css.map */
